@@ -9,8 +9,8 @@ Database_backup=><b>src/db_backup</b><br>
 
 <b>Designed a Project to get an idea regarding aggregation pipeline method in mongoose in nodejs with REST API Along with Joi backend validator followed by MVC structure which furnishes knowledge about the advanced query to retrieve data from database<b><br><br>
 
-<b>Aggregate methods:</b>https://docs.mongodb.com/manual/reference/operator/aggregation-pipeline/#alphabetical-listing-of-stages<br>
-<b>Operator information:</b>https://docs.mongodb.com/manual/reference/operator/aggregation/<br>
+<b>Aggregate methods:</b><br>https://docs.mongodb.com/manual/reference/operator/aggregation-pipeline/#alphabetical-listing-of-stages<br><br>
+<b>Operator information:</b><br>https://docs.mongodb.com/manual/reference/operator/aggregation/<br><br>
 
 # Reuired modules
 
