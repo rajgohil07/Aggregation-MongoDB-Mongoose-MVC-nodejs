@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "60fe632a207e3b1f1873bf0c"
+  },
+  "author": [
+    {
+      "$oid": "60fe63d1207e3b1f1873bf12"
+    }
+  ],
+  "book_name": "how to achieve your goals",
+  "price": 19,
+  "quantity": 9
+},{
+  "_id": {
+    "$oid": "60fe638e207e3b1f1873bf0e"
+  },
+  "author": [
+    {
+      "$oid": "60fe631c207e3b1f1873bf0a"
+    },
+    {
+      "$oid": "60fe62e2207e3b1f1873bf06"
+    },
+    {
+      "$oid": "60fe638e207e3b1f1873bf0e"
+    }
+  ],
+  "book_name": "how to become programmer in 1 second",
+  "price": 199.25,
+  "quantity": 225
+},{
+  "_id": {
+    "$oid": "60fe63b1207e3b1f1873bf10"
+  },
+  "author": [
+    {
+      "$oid": "60fe62e2207e3b1f1873bf06"
+    },
+    {
+      "$oid": "60fe638e207e3b1f1873bf0e"
+    }
+  ],
+  "book_name": "journey of my life",
+  "price": 9.25,
+  "quantity": 25
+}]

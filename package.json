@@ -1,0 +1,17 @@
+{
+  "name": "mongoose_aggregate_functionality",
+  "version": "1.1.1",
+  "description": "mongoose aggregate functionalities",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Raj Gohil",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.1",
+    "mongoose": "^5.13.3"
+  }
+}

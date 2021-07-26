@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "60fe62e2207e3b1f1873bf06"
+  },
+  "name": "martha patel",
+  "email": "martha@gmail.com",
+  "country": "USA",
+  "age": 21
+},{
+  "_id": {
+    "$oid": "60fe62f6207e3b1f1873bf08"
+  },
+  "name": "sarthi mehta",
+  "email": "sarthi@gmail.com",
+  "country": "CANADA",
+  "age": 23
+},{
+  "_id": {
+    "$oid": "60fe631c207e3b1f1873bf0a"
+  },
+  "name": "Raj Gohil",
+  "email": "raj.gohoil@gmail.com",
+  "country": "INDIA",
+  "age": 22
+},{
+  "_id": {
+    "$oid": "60fe63d1207e3b1f1873bf12"
+  },
+  "name": "seriyo Furel",
+  "email": "seriyo.Furel@gmail.com",
+  "country": "RUSSIA",
+  "age": 44
+}]
