@@ -22,6 +22,9 @@ module.exports = (app) => {
     //display specefic auther book_info
     app.get('/autherInfo/:id', Controller.autherInfo);
 
+    //display most sold book
+    app.get("/mostSoldBook", Controller.mostSoldBook);
+
     //dsplay total profit
     app.get("/displayProfit", Controller.displayProfit);
 

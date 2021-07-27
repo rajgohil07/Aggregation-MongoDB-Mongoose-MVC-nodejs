@@ -76,6 +76,39 @@ exports.getAuthersWithBook = async (req, res) => {
     res.send({ "message": " all data associated with notes", result });
 };
 
+//display most sold book
+exports.mostSoldBook = async (req, res) => {
+
+    const result = await book_info.aggregate([{
+        '$lookup': {
+            'from': 'auther_infos',
+            'localField': 'author',
+            'foreignField': '_id',
+            'as': 'string'
+        }
+    }, {
+        '$project': {
+            '_id': 0,
+            'Title': '$book_name',
+            'Copies_sold': '$quantity',
+            'Profit_gain': {
+                '$multiply': [
+                    '$price', '$quantity'
+                ]
+            },
+            'Author_name': '$string.name'
+        }
+    }, {
+        '$sort': {
+            'Profit_gain': -1
+        }
+    }, {
+        '$limit': 1
+    }]);
+
+    res.send({ message: "The most solded book is " + result[0].Title, details: result[0] });
+}
+
 //dsplay total profit
 exports.displayProfit = async (req, res) => {
 
