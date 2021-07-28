@@ -1,7 +1,6 @@
-module.exports = (mongoose) => {
-
+module.exports = () => {
+    const mongoose = require("mongoose");
     const bookSchema = new mongoose.Schema({
-
         book_name: {
             type: String,
             require: true
@@ -19,6 +18,6 @@ module.exports = (mongoose) => {
         versionKey: false
     });
 
-    return mongoose.model('book_info', bookSchema);
+    return mongoose.models.book_info || mongoose.model('book_info', bookSchema);
 
 };

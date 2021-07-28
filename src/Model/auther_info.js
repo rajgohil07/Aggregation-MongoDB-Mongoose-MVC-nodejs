@@ -1,5 +1,5 @@
-module.exports = (mongoose) => {
-
+module.exports = () => {
+    const mongoose = require("mongoose");
     const autherSchema = new mongoose.Schema({
         name: {
             type: String,
@@ -21,5 +21,5 @@ module.exports = (mongoose) => {
         versionKey: false
     });
 
-    return mongoose.model('auther_info', autherSchema);
+    return mongoose.models.auther_info || mongoose.model('auther_info', autherSchema);
 };

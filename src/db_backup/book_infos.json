@@ -1,46 +1,52 @@
 [{
   "_id": {
-    "$oid": "60fe632a207e3b1f1873bf0c"
+    "$oid": "610147ddd7493f27ccb2acdc"
   },
   "author": [
     {
-      "$oid": "60fe63d1207e3b1f1873bf12"
+      "$oid": "6101476fd7493f27ccb2acd8"
+    },
+    {
+      "$oid": "6101472fd7493f27ccb2acd4"
+    },
+    {
+      "$oid": "61014686e466251ec42e4a33"
     }
   ],
-  "book_name": "how to achieve your goals",
-  "price": 19,
-  "quantity": 9
+  "book_name": "How to be scuessfull!",
+  "price": 49.9,
+  "quantity": 11
 },{
   "_id": {
-    "$oid": "60fe638e207e3b1f1873bf0e"
+    "$oid": "61014809d7493f27ccb2acde"
   },
   "author": [
     {
-      "$oid": "60fe631c207e3b1f1873bf0a"
+      "$oid": "610147a8d7493f27ccb2acda"
     },
     {
-      "$oid": "60fe62e2207e3b1f1873bf06"
+      "$oid": "6101472fd7493f27ccb2acd4"
     },
     {
-      "$oid": "60fe638e207e3b1f1873bf0e"
+      "$oid": "61014686e466251ec42e4a33"
     }
   ],
-  "book_name": "how to become programmer in 1 second",
-  "price": 199.25,
-  "quantity": 225
+  "book_name": "How to become pro programmer in 1 seconds",
+  "price": 149.99,
+  "quantity": 350
 },{
   "_id": {
-    "$oid": "60fe63b1207e3b1f1873bf10"
+    "$oid": "6101482bd7493f27ccb2ace0"
   },
   "author": [
     {
-      "$oid": "60fe62e2207e3b1f1873bf06"
+      "$oid": "61014751d7493f27ccb2acd6"
     },
     {
-      "$oid": "60fe638e207e3b1f1873bf0e"
+      "$oid": "6101476fd7493f27ccb2acd8"
     }
   ],
-  "book_name": "journey of my life",
-  "price": 9.25,
-  "quantity": 25
+  "book_name": "Journey of my life",
+  "price": 49.99,
+  "quantity": 31
 }]
